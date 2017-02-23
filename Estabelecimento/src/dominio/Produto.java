@@ -3,6 +3,8 @@ package dominio;
 public class Produto {
 	private String nome;
 	private String IMCS;
+	private int ID;
+	private String codigo;
 	private float quantidade;
 	private float precoUnitario;
 	private float peso;

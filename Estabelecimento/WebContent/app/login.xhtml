@@ -1,0 +1,19 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:body>
+	<h:form>
+		<h:outputLabel value="Usuário" style="width: 100px;" />
+		<p:inputText />
+		<br />
+		<h:outputFormat value="Senha" style="width: 100px;" />
+		<p:inputText />
+		<br />
+		<p:commandButton value="Entrar" action="#{vendedorMBean.login()}"
+			style="width: 100px;" />
+	</h:form>
+</h:body>
+
+</html>
